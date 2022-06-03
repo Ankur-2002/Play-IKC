@@ -1,0 +1,348 @@
+.span_logo {
+  border: 2px solid #fff;
+  border-radius: 0 0 9px 9px;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  text-align: center;
+  display: inline-block;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em !important;
+  width: 100%;
+
+  z-index: 1;
+  padding: 0 70px;
+  margin: auto;
+  font-size: 1.3em;
+  background: var(--sblue);
+}
+
+.card__closes {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: Titillium Web;
+  margin-top: 0.25em;
+}
+
+.card__text {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .card__closes {
+    padding: 0 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  .card__text {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .span_logo {
+    padding: 0 35px;
+  }
+}
+.s_span {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 16px solid rgb(43, 126, 169);
+  border-right: 8px solid transparent;
+}
+.card {
+  background-image: url("https://c1.wallpaperflare.com/preview/887/886/344/bear-business-computer-connection.jpg");
+  color: white;
+  position: relative;
+  transition: all 0.5s;
+  height: 400px;
+  margin: 40px 10px;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    margin: 20px 5px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    height: 400px;
+    /* width: 100px; */
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.08);
+}
+.card__fix__block {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -55px;
+}
+.card__logo__name > span {
+  font-weight: 800;
+  color: white;
+  padding-top: 50%;
+}
+.quiz__card__logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.quiz__card__logo-wrapper {
+  text-align: center;
+  border-radius: 180%;
+  box-shadow: 0 4px 4px 1px gray;
+  padding: 3px;
+  margin-bottom: 2px;
+  width: fit-content;
+  border: 2px solid white;
+  background: linear-gradient(
+    to right,
+    #f06a2d,
+    #f4bd51,
+    #e4233e,
+    #6129cd,
+    #952296
+  );
+}
+.card__logo {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 180%;
+  background-color: black;
+  padding: 8px;
+}
+
+.card__logo__name {
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  background-color: var(--cblue);
+  border-radius: 0px 0px 10px 10px;
+  border: 2px solid white;
+}
+
+.card > h1 {
+  text-align: center;
+  margin-top: -18%;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Paytone One", sans-serif;
+}
+.card > h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.card__bottom > h2 {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  color: #fbb03b;
+  font-size: 2.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .card__bottom > h2 {
+    font-size: 1.5em;
+  }
+}
+
+.card_bottom > h6 {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.card__info {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__info-title {
+  font-size: 1.75em;
+  margin-right: 8px;
+  font-weight: 400;
+  font-family: "Paytone One", sans-serif;
+}
+
+.card__info-value {
+  letter-spacing: 2px;
+  font-size: 2em;
+  font-weight: 900;
+  color: white;
+  font-style: bold;
+  font-style: italic;
+  font-family: "Paytone One", sans-serif;
+}
+
+.card__bottom {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+}
+
+.card__bottom__btn {
+  background-color: var(--cblue);
+  width: fit-content;
+  color: white;
+  font-weight: 900;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  margin: 0 auto;
+  /* text-decoration: none; */
+  font-family: "Paytone One", sans-serif;
+}
+
+.card__bottom__btn__ikc {
+  font-size: 20px;
+  color: var(--red);
+  letter-spacing: 2px;
+  font-family: "Paytone One", sans-serif;
+}
+
+.card__info-value-btn {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .card__bottom__btn {
+    font-size: 18px;
+    padding: 6px 16px;
+  }
+
+  .card__text {
+    font-size: 18px;
+  }
+
+  .card__info-title {
+    font-size: 16px;
+  }
+
+  .card__info-value {
+    font-size: 16px;
+  }
+
+  .card__bottom__btn__ikc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .card__bottom__btn {
+    font-size: 14px;
+    padding: 4px 12px;
+  }
+
+  .card__text {
+    font-size: 14px;
+  }
+
+  .card__info-title {
+    font-size: 14px;
+    margin-right: 2px;
+  }
+
+  .card__info-value {
+    font-size: 14px;
+  }
+
+  .card__bottom__btn__ikc {
+    font-size: 12px;
+  }
+
+  .card > h1 {
+    margin: 0px;
+  }
+}
+
+/* .card:hover .card__info-value,
+.card__text {
+  color: var(--red);
+} */
+
+.card:hover .card__text {
+  color: var(--red);
+}
+
+@media screen and (max-width: 450px) {
+  /* .card__bottom__btn {
+    padding: 10px 12.5px;
+  } */
+}
+
+.card__bottom__btn:hover {
+  color: white;
+}
+@media screen and (max-width: 992px) {
+  .card > h1 {
+    margin-top: -15%;
+  }
+}
+.card__bottom > h6 {
+  font-size: "1.8em";
+  font-weight: "600";
+}
+@media screen and (max-width: 500px) {
+  .card {
+    height: 300px;
+    margin: 40px 6px;
+    border-radius: 6px;
+  }
+  .card > h1 {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  .card__bottom {
+    font-size: small;
+    position: absolute;
+    bottom: 0px;
+  }
+  .card__bottom > h6 {
+    font-size: 18px;
+  }
+  .card__bottom__btn {
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  .card__bottom > h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .card {
+    margin: 40px 5px;
+  }
+  .card__bottom__btn {
+    font-weight: 800;
+    padding: 5px 10px;
+  }
+}
